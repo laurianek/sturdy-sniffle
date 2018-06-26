@@ -2,6 +2,34 @@
 ---
 @import "bulma";
 
+.hero {
+  position: relative;
+  overflow: hidden;
+  &.is-dark {
+    background-color: #000;
+  }
+}
+
+.site-hero-image {
+  position: absolute;
+  min-width: 100vw;
+  min-height: 100vh;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+.hero-logo {
+  position: relative;
+  font-family: 'Ubuntu', 'Roboto', sans-serif;
+
+  img {
+    margin-right: 5px;
+  }
+}
+
 //.g-recaptcha {
 //  background: #f9f9f9;
 //  border: 1px solid #dbdbdb;

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="202px" height="176px" viewBox="0 0 202 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>crystal</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="company-logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo-crystal" transform="translate(-27.000000, -40.000000)" stroke="#FFFFFF">
+            <g id="crystal" transform="translate(27.000000, 40.000000)">
+                <g>
+                    <path d="M3.79875054,20.1914421 L198.033431,2.81162116 L151.008731,172.919145 L54.8043571,153.347925 C54.5642736,153.299084 54.0602029,152.870805 53.9761313,152.648874 L3.79875054,20.1914421 Z" id="Rectangle" stroke-width="5"></path>
+                    <path d="M3.5,19.5 L151.5,171.5" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M5.5,21.5 L123.5,53.5" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M124.5,54.5 L151,173" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M55,129 L152,172" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M52,152 L55,129" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M4,20 L55,129" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M124.5,53.5 L200,2" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

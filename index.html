@@ -1,8 +1,33 @@
 ---
-layout: default
+layout: base
 ---
 
-<section class="hero is-medium is-primary" data-section="attention">
+<section class="hero is-fullheight is-dark" data-section="attention">
+  <img class="site-hero-image" src="{{ '/assets/img/agreement-business.jpg' | relative_url }}" alt="hero image: Photo by rawpixel.com from Pexels">
+
+  <div class="hero-head">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="container">
+        <a class="navbar-item hero-logo" href="#attention">
+          <img src="{{ '/assets/img/crystal.svg' | relative_url }}" alt="Logo">
+          Crystal High-Tech
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item is-active" href="{{ site.baseurl }}{% link index.html %}">Home</a>
+            <a class="navbar-item" href="{{ site.baseurl }}{% link index.html %}#products">Products</a>
+            <a class="navbar-item" href="{{ site.baseurl }}{% link index.html %}#services">Services</a>
+            <a class="navbar-item" href="{{ site.baseurl }}{% link index.html %}#contact">Contact us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
 
 </section>
     Home page
