@@ -30,6 +30,40 @@
   }
 }
 
+.temporary {
+  .temporary__icon {
+    position: relative;
+  }
+  .fa-wrench {
+    color: #828282;
+  }
+  .fa-cloud {
+    color: #fff;
+  }
+  .fa-cogs {
+    color: #239fde;
+  }
+  .icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+  }
+  .dashes {
+    background-image: linear-gradient(to right, #000 0%, #000 49%, transparent 50%, transparent 99%);
+    position: absolute;
+    top: 50%;
+    height: 5px;
+    left: 0;
+    width: 100%;
+    background-size: 10px;
+  }
+  .title {
+    padding: 20px 0 40px;
+    margin: 0;
+  }
+}
+
 //.g-recaptcha {
 //  background: #f9f9f9;
 //  border: 1px solid #dbdbdb;

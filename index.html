@@ -29,8 +29,94 @@ layout: base
     </nav>
   </div>
 
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">Grow in new markets with our help</h1>
+      <h2 class="subtitle">We help brands grow and reach new market possibilities</h2>
+      <p>
+        <butoon class="button is-white">Find out how</butoon>
+        <butoon class="button is-success">Get in touch</butoon>
+      </p>
+    </div>
+  </div>
+
 </section>
-    Home page
-    - About page
-    - Products page
-    - Contact Pages
+
+<section class="temporary has-background-warning">
+  <div class="container has-text-centered">
+    <p class="icons">
+      <span class="dashes"></span>
+      <i class="temporary__icon fas fa-wrench fa-8x"></i>
+      <i class="temporary__icon has-background-warning fas fa-cloud fa-10x"></i>
+      <i class="temporary__icon has-background-warning fas fa-cogs fa-5x"></i>
+
+    </p>
+    <h2 class="title is-2">Site Under Construction</h2>
+    <p style="position: relative; padding-bottom: 10px"><span class="dashes"></span></p>
+  </div>
+</section>
+
+<section>
+  <!--
+  Home page
+  About page
+  Products page
+  Contact Pages
+  -->
+</section>
+
+<section data-section="action" id="contact" class="contact-us">
+  <div class="container">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://usebasin.com/f/982b3b8452f7/ahoy.js" async defer></script>
+    <form accept-charset="UTF-8" action="https://usebasin.com/f/982b3b8452f7" enctype="multipart/form-data" method="POST">
+      <h2 class="title is-2 has-text-centered">Get in touch with me</h2>
+      <p class="subtitle is-5 text-center">
+        Have a project in mind? Drop me a line <br class="is-hidden-mobile"> and let's have a chat together
+      </p>
+      <div class="columns">
+        <div class="column">
+
+          <div class="field">
+            <label for="name" class="label">Full name</label>
+            <div class="control">
+              <input type="text" class="input" id="name" name="name" placeholder="e.g. John Doe" required>
+            </div>
+          </div>
+
+          <div class="field" style="margin-bottom: 20px">
+            <label for="company" class="label">Company</label>
+            <div class="control">
+              <input type="text" class="input" id="company" name="company" placeholder="e.g. Awesome Brand Inc" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="email" class="label">Best contact email</label>
+            <div class="control">
+              <input type="text" class="input" id="email" name="email" placeholder="e.g. person@awesome-brand.com" required>
+            </div>
+          </div>
+
+
+
+          <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
+        </div>
+
+        <div class="column">
+          <div class="field lk-get-in-touch-message">
+            <label for="message" class="label">Message</label>
+            <div class="control">
+              <textarea class="textarea" name="message" id="message" required placeholder="What can I help you with?"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="button is-success is-medium">
+          Send<i class="fab fa-telegram-plane lk-send-icon"></i>
+        </button>
+      </div>
+    </form>
+  </div>
+</section>

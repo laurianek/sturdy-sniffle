@@ -1,10 +1,29 @@
 <footer class="footer has-background-black-ter ">
   <div class="container has-text-centered">
-    <p class="has-text-white-ter">&copy;Crystal High-Tech Ltd</p>
-    <p class="has-text-grey">
-      Main Photo by rawpixel.com from
-      <a href="https://www.pexels.com/photo/two-person-shaking-each-others-hands-872957/">Pexels</a>
+    <p class="has-text-white-ter" style="margin-bottom: 20px;">
+      Copyright &copy;&nbsp;<span id="footerCopy">2018</span>&nbsp;Crystal High-Tech Ltd
     </p>
+    <script>
+      (function() {
+        var year = new Date().getFullYear();
+        document.getElementById('footerCopy').innerText = year;
+      })();
+    </script>
+    <div class="columns has-text-white-ter">
+      <div class="column is-half">
+        <p>Crystal High Tech Ltd</p>
+        <p>20-22 Wenlock Road, London, England, N1 7GU</p>
+        <p>Uk registered limited company: 10123822</p>
+      </div>
+      <div class="column is-half">
+        <h4 class="subtitle is-6 has-text-grey-light">Attributions</h4>
+        <p class="has-text-grey is-size-7">
+          Main Photo by rawpixel.com from
+          <a href="https://www.pexels.com/photo/two-person-shaking-each-others-hands-872957/">Pexels</a>
+        </p>
+      </div>
+    </div>
+
   </div>
 </footer>
 
