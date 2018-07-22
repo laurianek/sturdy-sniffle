@@ -19,6 +19,9 @@
   transform: translate(-50%, -50%);
   opacity: 0.25;
   pointer-events: none;
+  &.llazy-img.llazy-img--show {
+    opacity: 0.25;
+  }
 }
 
 .hero-logo {
@@ -63,6 +66,25 @@
     margin: 0;
   }
 }
+
+// LAZY IMAGE --------------
+.llazy-img {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+
+  &.llazy-img--show {
+    opacity: 1;
+  }
+}
+.llazy-img--low-res {
+  filter: blur(20px);
+  transition: opacity 1s ease-out;
+  &.llazy-img--show {
+    opacity: 0;
+  }
+}
+
+
 
 //.g-recaptcha {
 //  background: #f9f9f9;
